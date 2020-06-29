@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Fusion App</string>
+    <string name="action_settings">Settings</string>
+    <string name="room_database">Room Database</string>
+    <string name="about">About</string>
+
+
+    <string name="notification_title">You\'ve been notified!</string>
+    <string name="notification_text">This is your notification text.</string>
+    <string name="update">Update Notification</string>
+    <string name="notify_me">Notify Me!</string>
+    <string name="update_me">Update Me!</string>
+    <string name="cancel_me">Cancel Me!</string>
+    <string name="notification_updated">Notification Updated!</string>
+    <string name="notification_channel_name">Mascot Notification</string>
+    <string name="notification_channel_description">Notification from Mascot</string>
+    <string name="title">Setting Option</string>
+    <string name="summary">Turn this Option On or Off</string>
+
+
+
+    <string name="blue_button">Blue</string>
+    <string name="green_button">Green</string>
+    <string name="red_button">Red</string>
+    <string name="black_button">Black</string>
+    <string name="default_count">0</string>
+    <string name="count_button">Count</string>
+    <string name="reset_button">Reset</string>
+    <string name="switch_summary">Turn this option on or off</string>
+    <string name="switch_title">Setting Option</string>
+    <string name="title_first_section">First Section</string>
+    <string name="title_checkbox_preference">Check Box Preference</string>
+    <string name="default_checkbox_preference">check box</string>
+    <string name="title_edittext_preference">Edit Text Preference</string>
+    <string name="summary_edittext_preference">This is sample edit text preference</string>
+    <string name="dialog_title_edittext_preference">dialog</string>
+    <string name="title_second_section">Second Section</string>
+    <string name="title_list_preference">List Preference</string>
+    <string name="dialog_title_list_preference">dialog2</string>
+    <string name="title_intent_preference">Costume Intent</string>
+</resources>

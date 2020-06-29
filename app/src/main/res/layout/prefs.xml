@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Share.share_preference">
+
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="326dp"
+        android:layout_height="430dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/black_background_button"
+        style="@style/AppTheme.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/black"
+        android:onClick="changeBackground"
+        android:text="@string/black_button"
+        app:layout_constraintEnd_toStartOf="@+id/red_background_button"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Button1" />
+
+    <Button
+        android:id="@+id/red_background_button"
+        style="@style/AppTheme.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/red_background"
+        android:onClick="changeBackground"
+        android:text="@string/red_button"
+        app:layout_constraintEnd_toStartOf="@+id/blue_background_button"
+        app:layout_constraintStart_toEndOf="@+id/black_background_button"
+        app:layout_constraintTop_toBottomOf="@+id/Button1" />
+
+    <Button
+        android:id="@+id/blue_background_button"
+        style="@style/AppTheme.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/blue_background"
+        android:onClick="changeBackground"
+        android:text="@string/blue_button"
+        app:layout_constraintEnd_toStartOf="@+id/green_background_button"
+        app:layout_constraintStart_toEndOf="@+id/red_background_button"
+        app:layout_constraintTop_toBottomOf="@+id/Button1" />
+
+    <Button
+        android:id="@+id/green_background_button"
+        style="@style/AppTheme.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/green_background"
+        android:onClick="changeBackground"
+        android:text="@string/green_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/blue_background_button"
+        app:layout_constraintTop_toBottomOf="@+id/Button1" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

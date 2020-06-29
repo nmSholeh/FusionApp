@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard.MenuDashboard" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="This Is Main Menu"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/button4"-->
+<!--        android:layout_width="95dp"-->
+<!--        android:layout_height="97dp"-->
+<!--        android:layout_marginTop="332dp"-->
+<!--        android:background="@drawable/"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.11"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="95dp"-->
+<!--        android:layout_height="97dp"-->
+<!--        android:layout_marginTop="332dp"-->
+<!--        android:background="@drawable/emaiill"-->
+<!--        android:onClick="kirim"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.892"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <Button
+        android:id="@+id/roomdata"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:onClick="dababase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infome"
+        android:text="@string/room_database"/>
+
+    <Button
+        android:id="@+id/infome"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/about"
+        android:onClick="about"/>
+
+    <Button
+        android:id="@+id/notif"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/notify_me"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomdata"
+        android:onClick="notif"/>
+
+    <Button
+        android:id="@+id/prefss"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:onClick="prefs"
+        android:text="Share Preference"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notif" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
