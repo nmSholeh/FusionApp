@@ -15,6 +15,7 @@
         <activity android:name=".notif.notifyme"/>
         <activity android:name=".Share.share_preference"/>
         <activity android:name=".alarm.MainAlarm"/>
+        <activity android:name=".asyntask.MainAsyntask"/>
         <activity
             android:name=".Dashboard.MenuDashboard"
             android:label="@string/app_name"
