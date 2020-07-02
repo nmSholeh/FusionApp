@@ -1,7 +1,7 @@
 # FusionApp
 Tugas Akhir Pemrograman Lanjut
 
-Aplikasi ini gabungan dari 3 Aplikasi : 
+Aplikasi ini gabungan dari 5 Aplikasi : 
 1. Android fundamentals 07.1: AsyncTask
 2. Android fundamentals 08.2: The alarm manager
 3. Roomdatabase : https://github.com/gurvinder13/ToDoList
