@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="This Is Main Menu"
+        android:text="@string/this_is_main_menu"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -48,7 +48,7 @@
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_marginTop="28dp"
-        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
         android:onClick="notif"
         android:text="@string/notify_me"
         app:layout_constraintRight_toRightOf="parent"
@@ -77,6 +77,17 @@
         app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/notif" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="async"
+        android:text="@string/asyntask"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prefss" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

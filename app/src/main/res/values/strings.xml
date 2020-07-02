@@ -43,4 +43,6 @@
 
 
     <string name="ready_to_start">I am ready to start work!</string>
+    <string name="asyntask">Asyntask</string>
+    <string name="this_is_main_menu">This Is Main Menu</string>
 </resources>

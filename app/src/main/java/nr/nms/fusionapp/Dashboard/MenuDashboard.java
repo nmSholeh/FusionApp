@@ -16,6 +16,7 @@ import nr.nms.fusionapp.R;
 import nr.nms.fusionapp.Share.share_preference;
 import nr.nms.fusionapp.about;
 import nr.nms.fusionapp.alarm.MainAlarm;
+import nr.nms.fusionapp.asyntask.MainAsyntask;
 import nr.nms.fusionapp.notif.notifyme;
 
 public class MenuDashboard extends AppCompatActivity {
@@ -53,6 +54,11 @@ protected void onCreate(Bundle savedInstanceState) {
 
     public void alarm(View view) {
     Intent intent = new Intent(MenuDashboard.this, MainAlarm.class);
+    startActivity(intent);
+    }
+
+    public void async(View view) {
+    Intent intent = new Intent(MenuDashboard.this, MainAsyntask.class);
     startActivity(intent);
     }
 }
