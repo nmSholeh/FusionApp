@@ -19,41 +19,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--    <Button-->
-<!--        android:id="@+id/button4"-->
-<!--        android:layout_width="95dp"-->
-<!--        android:layout_height="97dp"-->
-<!--        android:layout_marginTop="332dp"-->
-<!--        android:background="@drawable/"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.11"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button"-->
-<!--        android:layout_width="95dp"-->
-<!--        android:layout_height="97dp"-->
-<!--        android:layout_marginTop="332dp"-->
-<!--        android:background="@drawable/emaiill"-->
-<!--        android:onClick="kirim"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.892"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
 
     <Button
         android:id="@+id/roomdata"
-        android:layout_width="270dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
         android:onClick="dababase"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        android:text="@string/room_database"
+        app:layout_constraintEnd_toStartOf="@+id/notif"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infome"
-        android:text="@string/room_database"/>
+        app:layout_constraintTop_toBottomOf="@+id/infome" />
 
     <Button
         android:id="@+id/infome"
@@ -68,25 +45,36 @@
 
     <Button
         android:id="@+id/notif"
-        android:layout_width="270dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="36dp"
+        android:onClick="notif"
         android:text="@string/notify_me"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/roomdata"
-        android:onClick="notif"/>
+        app:layout_constraintTop_toBottomOf="@+id/infome" />
 
     <Button
         android:id="@+id/prefss"
-        android:layout_width="270dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
         android:onClick="prefs"
-        android:text="Share Preference"
+        android:text="@string/share_preference"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomdata" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/alarm"
+        android:onClick="alarm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/notif" />
 

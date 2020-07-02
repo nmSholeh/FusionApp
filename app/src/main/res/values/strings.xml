@@ -38,4 +38,9 @@
     <string name="title_list_preference">List Preference</string>
     <string name="dialog_title_list_preference">dialog2</string>
     <string name="title_intent_preference">Costume Intent</string>
+    <string name="share_preference">Share Preference</string>
+    <string name="alarm">Alarm</string>
+
+
+    <string name="ready_to_start">I am ready to start work!</string>
 </resources>
